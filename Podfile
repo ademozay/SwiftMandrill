@@ -3,13 +3,13 @@ use_frameworks!
 
 plugin 'cocoapods-keys'
 
-pod 'Alamofire', '~> 4.3.0’
-pod 'ObjectMapper', '~> 2.2.2’
+pod 'Alamofire', '~> 4.8.2’
+pod 'ObjectMapper', '~> 3.5.1’
 
 
 target 'SwiftMandrillTests' do
-  pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
+  pod 'Quick', '~> 2.1.0'
+  pod 'Nimble', '~> 8.0.2'
 
 plugin 'cocoapods-keys', {
   :project => "SwiftMandrill",

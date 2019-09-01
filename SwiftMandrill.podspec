@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftMandrill"
-  s.version      = "1.0.4"
+  s.version      = "2.0.0"
   s.summary      = "A simple iOS client for the Mandrill Mail API"
   s.description  = <<-DESC
 SwiftMandrill provides simple alternative when you need to send an email with your iOS app.               
@@ -19,7 +19,7 @@ SwiftMandrill provides simple alternative when you need to send an email with yo
   s.source_files  = "SwiftMandrill/", "SwiftMandrill/**/*.{h,m,swift}"
 
   s.requires_arc = true
-  s.dependency 'ObjectMapper', '~> 2.2'
-  s.dependency 'Alamofire', '~> 4.3'
+  s.dependency 'ObjectMapper', '~> 3.5.1'
+  s.dependency 'Alamofire', '~> 4.8.2'
 
 end
